@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MathPlus
+namespace MathPlus.Geometry
 {
-    public class Class1
+    class Figure
     {
     }
 }
