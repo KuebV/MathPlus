@@ -36,12 +36,44 @@ namespace MathPlus.SohCahToa
             {
                 case SCT_Type.Sin:
                     if (Opposite == -1 || Hypotnuse == -1)
+                    {
                         Console.WriteLine("Missing Opposite or Hypotnuse Values for Type Sin");
+                        return;
+                    }
+                    break;
+                case SCT_Type.Cos:
+                    if (Adjacent == -1 || Hypotnuse == -1)
+                    {
+                        Console.WriteLine("Missing Adjacent or Hypotnuse Values for Type Cos");
+                        return;
+                    }
+                    break;
+                case SCT_Type.Tan:
+                    if (Opposite == -1 || Adjacent == -1)
+                    {
+                        Console.WriteLine("Missing Adjacent or Opposite Values for Type Tan");
+                        return;
+                    }
+                    break;
+                    
             }
         }
 
-        public double FindMissingAngle()
+        public double FindMissingSide()
         {
+            switch (LookingForType)
+            {
+                case SCT_Type.Sin:
+                    return Opposite / Hypotnuse;;
+                case SCT_Type.Cos:
+                    return Adjacent / Hypotnuse;
+                case SCT_Type.Tan:
+                    return Opposite / Adjacent;
+                default:
+                    return -1;
+                    
+            }
+
         }
 
         private double Opposite;

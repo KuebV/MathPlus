@@ -1,0 +1,6 @@
+C:\Users\mary\source\repos\MathPlus\MathPlus\bin\Debug\MathPlus.dll
+C:\Users\mary\source\repos\MathPlus\MathPlus\bin\Debug\MathPlus.pdb
+C:\Users\mary\source\repos\MathPlus\MathPlus\obj\Debug\MathPlus.csprojAssemblyReference.cache
+C:\Users\mary\source\repos\MathPlus\MathPlus\obj\Debug\MathPlus.csproj.CoreCompileInputs.cache
+C:\Users\mary\source\repos\MathPlus\MathPlus\obj\Debug\MathPlus.dll
+C:\Users\mary\source\repos\MathPlus\MathPlus\obj\Debug\MathPlus.pdb

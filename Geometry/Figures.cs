@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace MathPlus.Geometry
 {
-    class Figure
+    public enum Figures
     {
+        Circle = 0,
+        Triangle = 2,
+        Square = 3,
+        Rectange = 4,
+        Pentagon = 5
     }
 }
